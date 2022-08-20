@@ -1,0 +1,17 @@
+Cenário 3:  Verificação dos campos obrigatórios na página de cadastro Pessoa jurídica
+
+Dado que o cliente já esteja acessado a página de cadastro (https://cadastramento-demo.mercafacil.com/#/cadastro)
+Quando o cliente não preencher os campos obrigatórios, tais como: “Nome Completo”
+Então o portal retornará a mensagem " Esse campo é obrigatório."
+E não inserir  “Celular”
+Então o portal retornará a mensagem " Esse campo é obrigatório."
+E não inserir  “Telefone de contato”
+Então o portal retornará a mensagem " Esse campo é obrigatório."
+E não inserir " E-mail"
+Então o portal retornará a mensagem " Esse campo precisa ter um e-mail válido."
+E não inserir  “CEP”
+Então o portal retornará a mensagem " Esse campo é obrigatório."
+E não inserir " Rua"
+Então o portal retornará a mensagem " Esse campo é obrigatório."
+E não inserir  “Número”
+Então o portal retornará a mensagem " Esse campo é obrigatório."
